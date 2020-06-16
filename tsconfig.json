@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015", "es2016", "dom", "es2017.object"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictPropertyInitialization": false,
+    "removeComments": true,
+    "baseUrl": "",
+    "rootDir": "./src",
+    "outDir": "dist/"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}

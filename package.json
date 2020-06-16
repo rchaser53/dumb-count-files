@@ -1,0 +1,31 @@
+{
+  "name": "dumb-count-files",
+  "version": "0.0.1",
+  "description": "count files in a directory recursively",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "format": "prettier --write {src/*.ts,src/**/*.ts}",
+    "format-check": "prettier --check {src/*.ts,src/**/*.ts}",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaser53/dumb-count-files"
+  },
+  "keywords": [],
+  "author": "rchaser53",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rchaser53/dumb-count-files/issues"
+  },
+  "homepage": "https://github.com/rchaser53/dumb-count-files#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.11",
+    "jest": "26.0.1",
+    "prettier": "2.0.5",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
